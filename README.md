@@ -21,13 +21,13 @@ The primary goal of our project was to:
   - **Seaborn**: A Python library used for creating statistical data visualizations.
 
 ## Features
-2. **Data Cleaning and Preparation**
+1. **Data Cleaning and Preparation**
    - Checking for null values, duplications, inconsistencies, proper data type, etc.
    - Process senders address by removing special characters.
    - Process SMS text by removing special characters, extra spaces, and links; converting text to lowercase; and handling inconsistencies in formatting.
    - Removing irrelevant data entries like personal chats.
      
-1. **Data Extraction**
+2. **Data Extraction**
    - Frequently used keywords in the SMS.
    - Frequently received messages with senders address.
    - Separated each user SMS based on their phone number
